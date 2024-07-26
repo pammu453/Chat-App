@@ -1,0 +1,137 @@
+[
+  {
+    "Balance Sheet": "Demo Company (Global)"
+  },
+  {
+    "Balance Sheet": "As at 30 April 2024"
+  },
+  {
+    "__EMPTY": "Account",
+    "__EMPTY_1": "30 Apr 2024",
+    "__EMPTY_2": "30 Mar 2024",
+    "__EMPTY_3": "29 Feb 2024"
+  },
+  {
+    "Balance Sheet": "Assets"
+  },
+  {
+    "__EMPTY": "Bank"
+  },
+  {
+    "__EMPTY": "Business Bank Account",
+    "__EMPTY_1": 3353.14,
+    "__EMPTY_2": 3706.95,
+    "__EMPTY_3": 4130.98
+  },
+  {
+    "__EMPTY": "Total Bank",
+    "__EMPTY_1": 3353.14,
+    "__EMPTY_2": 3706.95,
+    "__EMPTY_3": 4130.98
+  },
+  {
+    "__EMPTY": "Current Assets"
+  },
+  {
+    "__EMPTY": "Accounts Receivable",
+    "__EMPTY_1": 6946.33,
+    "__EMPTY_2": 9143.75,
+    "__EMPTY_3": 0
+  },
+  {
+    "__EMPTY": "Total Current Assets",
+    "__EMPTY_1": 6946.33,
+    "__EMPTY_2": 9143.75,
+    "__EMPTY_3": 0
+  },
+  {
+    "__EMPTY": "Fixed Assets"
+  },
+  {
+    "__EMPTY": "Computer Equipment",
+    "__EMPTY_1": 1804.5,
+    "__EMPTY_2": 1804.5,
+    "__EMPTY_3": 0
+  },
+  {
+    "__EMPTY": "Office Equipment",
+    "__EMPTY_1": 923.79,
+    "__EMPTY_2": 0,
+    "__EMPTY_3": 0
+  },
+  {
+    "__EMPTY": "Total Fixed Assets",
+    "__EMPTY_1": 2728.29,
+    "__EMPTY_2": 1804.5,
+    "__EMPTY_3": 0
+  },
+  {
+    "Balance Sheet": "Total Assets",
+    "__EMPTY_1": 13027.76,
+    "__EMPTY_2": 14655.2,
+    "__EMPTY_3": 4130.98
+  },
+  {
+    "Balance Sheet": "Liabilities"
+  },
+  {
+    "__EMPTY": "Current Liabilities"
+  },
+  {
+    "__EMPTY": "Accounts Payable",
+    "__EMPTY_1": 2242,
+    "__EMPTY_2": 3646.34,
+    "__EMPTY_3": 18.9
+  },
+  {
+    "__EMPTY": "Historical Adjustment",
+    "__EMPTY_1": 4130.98,
+    "__EMPTY_2": 4130.98,
+    "__EMPTY_3": 4130.98
+  },
+  {
+    "__EMPTY": "Sales Tax",
+    "__EMPTY_1": 419.35,
+    "__EMPTY_2": 389.54,
+    "__EMPTY_3": 0
+  },
+  {
+    "__EMPTY": "Total Current Liabilities",
+    "__EMPTY_1": 6792.33,
+    "__EMPTY_2": 8166.86,
+    "__EMPTY_3": 4149.88
+  },
+  {
+    "Balance Sheet": "Total Liabilities",
+    "__EMPTY_1": 6792.33,
+    "__EMPTY_2": 8166.86,
+    "__EMPTY_3": 4149.88
+  },
+  {
+    "__EMPTY": "Net Assets",
+    "__EMPTY_1": 6235.43,
+    "__EMPTY_2": 6488.34,
+    "__EMPTY_3": -18.9
+  },
+  {
+    "Balance Sheet": "Equity"
+  },
+  {
+    "__EMPTY": "Current Year Earnings",
+    "__EMPTY_1": 6254.33,
+    "__EMPTY_2": 6507.24,
+    "__EMPTY_3": 0
+  },
+  {
+    "__EMPTY": "Retained Earnings",
+    "__EMPTY_1": -18.9,
+    "__EMPTY_2": -18.9,
+    "__EMPTY_3": -18.9
+  },
+  {
+    "Balance Sheet": "Total Equity",
+    "__EMPTY_1": 6235.43,
+    "__EMPTY_2": 6488.34,
+    "__EMPTY_3": -18.9
+  }
+]

@@ -1,0 +1,105 @@
+/* Dark mode styles */
+:root {
+  --background-color: #312f2f;
+  --text-color: #e0e0e0;
+  --input-background: #2c2c2c;
+  --input-border: #444;
+  --button-background: #0f0e0e;
+  --button-text: #e8e0e0;
+  --button-hover-background: #3b3838;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: var(--text-color);
+  margin: 20px 0;
+  text-align: center;
+}
+
+.chat-window {
+  width: 100%;
+  max-width: 700px;
+  height: 70vh;
+  background: var(--input-background);
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-window div {
+  margin-bottom: 15px;
+}
+
+.chat-window p {
+  margin: 0;
+}
+
+.chat-window p strong {
+  color: var(--button-background);
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: var(--input-background);
+  margin-top: 4px;
+  border-radius: 8px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid var(--input-border);
+  border-radius: 4px;
+  background: var(--input-background);
+  color: var(--text-color);
+  font-size: 16px;
+  outline: #2c2c2c;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: var(--button-background);
+  color: var(--button-text);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+button:hover {
+  background: var(--button-hover-background);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .chat-window {
+    height: 60vh;
+    width: 75%;
+  }
+
+  .input-container {
+    flex-direction: column;
+  }
+
+  button {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
