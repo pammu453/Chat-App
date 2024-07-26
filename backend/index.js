@@ -6,7 +6,9 @@ require('dotenv').config();
 
 const app = express();
 
-app.use(cors());
+app.use(cors({
+  origin: "https://fantastic-seahorse-9c7a99.netlify.app",
+}));
 app.use(bodyParser.json());
 
 const chatRoutes = require('./routes/chat.js');

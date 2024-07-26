@@ -7,7 +7,7 @@ const Chat = () => {
 
   const handleSend = async () => {
     try {
-      const response = await axios.post('http://localhost:5000/api/chat/ask', {
+      const response = await axios.post('https://chat-app-w5pi.onrender.com/api/chat/ask', {
         question: message,
         userId: 'user123',
       });
